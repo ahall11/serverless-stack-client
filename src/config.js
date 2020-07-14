@@ -1,11 +1,13 @@
 export default {
+  MAX_ATTACHMENT_SIZE: 5000000,
+  STRIPE_KEY: "pk_test_51GzbAcAamKfXFmNBZsYtbIXK7KjR1ldLJ5SepFET0JVkgXDAxXGWbqmax4jcTy8dAWXOzYK1gTCVRdF7JCxwE2Tc00i0hxDasm",
   s3: {
     REGION: "us-west-2",
-    BUCKET: "YOUR_S3_UPLOADS_BUCKET_NAME"
+    BUCKET: "notes-app-uploads-ajh"
   },
   apiGateway: {
     REGION: "us-west-2",
-    URL: "notes-app-uploads-ajh"
+    URL: "https://98i3bv72fg.execute-api.us-west-2.amazonaws.com/prod"
   },
   cognito: {
     REGION: "us-west-2",
